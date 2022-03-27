@@ -4,5 +4,6 @@
     <h2><%: Title %>.</h2>
     <p>Desarrollado por John Ernest y Celso Brenes.</p>
     <p>  2022 - Colegio Universitario de Cartago</p>
+    <p>  2022 - Colegio Universitario de Cartago</p>
     <p>Programacion 2 VB.NET</p>
 </asp:Content>
