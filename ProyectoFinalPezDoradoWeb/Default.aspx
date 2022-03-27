@@ -14,4 +14,9 @@
         </div>
         </div>
 
+    <div>
+        <img src="" alt="" />
+        <asp:Image ID="Image1" runat="server" />
+    </div>
+
 </asp:Content>
