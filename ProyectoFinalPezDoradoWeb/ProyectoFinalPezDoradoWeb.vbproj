@@ -144,9 +144,11 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Paginas\clientes\FrmBusquedaClienteConsulta.aspx" />
     <Content Include="Paginas\clientes\FrmConsModifClientes.aspx" />
     <Content Include="Paginas\clientes\frmMascotapCliente.aspx" />
     <Content Include="Paginas\clientes\FrmRegistrarClientes.aspx" />
+    <Content Include="Paginas\mascotas\FrmBusquedaMAscotaConsulta.aspx" />
     <Content Include="Paginas\mascotas\FrmConsModifMascota.aspx" />
     <Content Include="Paginas\mascotas\frmFacturacion.aspx" />
     <Content Include="Paginas\mascotas\FrmRegistrarMascotas.aspx" />
@@ -324,6 +326,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Paginas\clientes\FrmBusquedaClienteConsulta.aspx.designer.vb">
+      <DependentUpon>FrmBusquedaClienteConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\clientes\FrmBusquedaClienteConsulta.aspx.vb">
+      <DependentUpon>FrmBusquedaClienteConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Paginas\clientes\FrmConsModifClientes.aspx.designer.vb">
       <DependentUpon>FrmConsModifClientes.aspx</DependentUpon>
     </Compile>
@@ -344,6 +353,13 @@
     <Compile Include="Paginas\clientes\FrmRegistrarClientes.aspx.vb">
       <DependentUpon>FrmRegistrarClientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\mascotas\FrmBusquedaMAscotaConsulta.aspx.designer.vb">
+      <DependentUpon>FrmBusquedaMAscotaConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\mascotas\FrmBusquedaMAscotaConsulta.aspx.vb">
+      <DependentUpon>FrmBusquedaMAscotaConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Paginas\mascotas\FrmConsModifMascota.aspx.designer.vb">
       <DependentUpon>FrmConsModifMascota.aspx</DependentUpon>

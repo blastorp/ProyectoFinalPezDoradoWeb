@@ -23,11 +23,11 @@ Partial Public Class frmMascotapCliente
     Protected WithEvents regexID As Global.System.Web.UI.WebControls.RegularExpressionValidator
 
     '''<summary>
-    '''tbxIdClienteConsultaMascota control.
+    '''tbxIdConsultaClientexMascota control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents tbxIdClienteConsultaMascota As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents tbxIdConsultaClientexMascota As Global.System.Web.UI.WebControls.TextBox
 End Class

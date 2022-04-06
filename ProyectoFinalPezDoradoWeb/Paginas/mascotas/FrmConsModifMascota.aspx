@@ -36,7 +36,7 @@
             </select>
         </div>
         <div class="form-group col-md-6">
-            <label for="LblIdDuenioActualizar">Identificación del dueño.</label>
+            <label for="LblIdDuenioActualizar">ID del dueño.</label>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ErrorMessage="El ID del dueño debe contener solo numeros"
                 ValidationExpression="^[0-9]+$" ControlToValidate="tbxIdDuenioActualizar" ForeColor="Red" Text="">*</asp:RegularExpressionValidator>
 
@@ -74,6 +74,7 @@
     </div>
       <br>
             <asp:Button ID="BtnGuardarCambiosMascota" CssClass="btn btn-primary" runat="server" Text="Guardar cambios." />
+            <asp:Button ID="BtnEliminarMascota" CssClass="btn btn-primary" runat="server" Text="Eliminar mascota." />
     
     <div class="alert alert-info" role="alert" id="lblAlertaClientesRegistro" runat="server" visible="True">
         <asp:ValidationSummary ID="vSumaryRegistroMascotas" runat="server" HeaderText="Favor verifique lo siguiente:" ForeColor="red" />

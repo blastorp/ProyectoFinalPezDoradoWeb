@@ -158,6 +158,15 @@ Partial Public Class FrmConsModifMascota
     Protected WithEvents BtnGuardarCambiosMascota As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''BtnEliminarMascota control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnEliminarMascota As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''lblAlertaClientesRegistro control.
     '''</summary>
     '''<remarks>

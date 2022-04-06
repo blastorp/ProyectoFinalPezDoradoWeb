@@ -14,13 +14,49 @@ Option Explicit On
 Partial Public Class frmLoginUsuarios
 
     '''<summary>
-    '''regexIDUsuario control.
+    '''regexNombre control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents regexIDUsuario As Global.System.Web.UI.WebControls.RegularExpressionValidator
+    Protected WithEvents regexNombre As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''tbxNombreUsuario control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tbxNombreUsuario As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''regexApellidos control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents regexApellidos As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''tbxApellidosUsuario control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tbxApellidosUsuario As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''regexID control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents regexID As Global.System.Web.UI.WebControls.RegularExpressionValidator
 
     '''<summary>
     '''tbxIDUsuario control.
@@ -32,29 +68,74 @@ Partial Public Class frmLoginUsuarios
     Protected WithEvents tbxIDUsuario As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''tbxPassword control.
+    '''regexMail control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents tbxPassword As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents regexMail As Global.System.Web.UI.WebControls.RegularExpressionValidator
 
     '''<summary>
-    '''btAcceder control.
+    '''tbxemailUsuario control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btAcceder As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents tbxemailUsuario As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''lnkBtAcceder control.
+    '''tbxLoginUsuario control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lnkBtAcceder As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents tbxLoginUsuario As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''RegularExpressionValidator1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidator1 As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''TbxContrasennaUsuario control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TbxContrasennaUsuario As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnRegistrarCliente control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnRegistrarCliente As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''lblAlertaClientesRegistro control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblAlertaClientesRegistro As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''vSumaryClientes control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents vSumaryClientes As Global.System.Web.UI.WebControls.ValidationSummary
 End Class

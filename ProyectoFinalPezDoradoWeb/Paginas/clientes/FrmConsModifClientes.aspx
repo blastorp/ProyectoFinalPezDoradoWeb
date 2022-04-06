@@ -85,6 +85,7 @@
             </div>
             <br>
             <asp:Button ID="BtnGuardarCambiosModificarCliente" CssClass="btn btn-primary" runat="server" Text="Guardar cambios." />
+            <asp:Button ID="BtnEliminarCliente" CssClass="btn btn-primary" runat="server" Text="Eliminar cliente." />
 
 
 
