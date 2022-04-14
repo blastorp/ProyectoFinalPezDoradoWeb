@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37172AAF-6A4A-42E1-959F-99778CFC3FB1}</ProjectGuid>
+    <ProjectGuid>{71999269-DD2F-4E66-9B8D-6EC3976C36F1}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Negocios</RootNamespace>
-    <AssemblyName>Negocios</AssemblyName>
+    <RootNamespace>Entidades</RootNamespace>
+    <AssemblyName>Entidades</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -19,7 +19,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <DocumentationFile>Entidades.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -28,7 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <DocumentationFile>Entidades.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -64,7 +64,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Seguridad.vb" />
+    <Compile Include="Cliente.vb" />
+    <Compile Include="Enumeradores.vb" />
+    <Compile Include="Mascota.vb" />
+    <Compile Include="Servicio.vb" />
+    <Compile Include="Facturas.vb" />
+    <Compile Include="Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,16 +104,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DatosSistema\DatosSistema.vbproj">
-      <Project>{6af5ea53-fc07-4c66-b186-f12fe0f7deac}</Project>
-      <Name>DatosSistema</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Entidades\Entidades.vbproj">
-      <Project>{71999269-dd2f-4e66-9b8d-6ec3976c36f1}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37172AAF-6A4A-42E1-959F-99778CFC3FB1}</ProjectGuid>
+    <ProjectGuid>{6AF5EA53-FC07-4C66-B186-F12FE0F7DEAC}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Negocios</RootNamespace>
-    <AssemblyName>Negocios</AssemblyName>
+    <RootNamespace>DatosSistema</RootNamespace>
+    <AssemblyName>DatosSistema</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -19,7 +19,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <DocumentationFile>DatosSistema.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -28,7 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <DocumentationFile>DatosSistema.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -64,7 +64,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Seguridad.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -80,6 +79,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UsuariosDatos.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -101,9 +101,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DatosSistema\DatosSistema.vbproj">
-      <Project>{6af5ea53-fc07-4c66-b186-f12fe0f7deac}</Project>
-      <Name>DatosSistema</Name>
+    <ProjectReference Include="..\datos\DatosSQL.vbproj">
+      <Project>{a77cd14e-14fa-4e80-b5c7-e311d4de1215}</Project>
+      <Name>DatosSQL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.vbproj">
       <Project>{71999269-dd2f-4e66-9b8d-6ec3976c36f1}</Project>
