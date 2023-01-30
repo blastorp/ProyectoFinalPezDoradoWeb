@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T20:08:09.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.13" etag="T8RkGjk_E_TdX9KENAO6" type="github"><diagram name="Page-1" id="BSC92UHtRIe24jjAi9p8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-30T20:15:42.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0XKhAbIBXafPrlUxl15f" version="20.8.13" type="github">
+  <diagram name="Page-1" id="BSC92UHtRIe24jjAi9p8">
+    <mxGraphModel dx="792" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-D7BelvOKkm663ltMzwJ-1" value="Ingresar credenciales deseados. Usuario, Mail y Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-2" value="Credenciales cumplen con disponibilidad y reglas de Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-3" value="Se agrega al Usuario a la Base de datos.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-4" value="Credenciales No cumplen con disponibilidad y reglas de Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-5" value="Se notifica, y se solicita direntes Credenciales segun corresponda.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-6" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-7" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-8" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-2" target="-D7BelvOKkm663ltMzwJ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-4" target="-D7BelvOKkm663ltMzwJ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="330" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-1" target="-D7BelvOKkm663ltMzwJ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-1" target="-D7BelvOKkm663ltMzwJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="350" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-5" target="-D7BelvOKkm663ltMzwJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.4;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-6" target="-D7BelvOKkm663ltMzwJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-3" target="-D7BelvOKkm663ltMzwJ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
