@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T20:15:42.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0XKhAbIBXafPrlUxl15f" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T20:27:06.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5uhldC7HWppE9usyo-Za" version="20.8.13" type="github">
   <diagram name="Page-1" id="BSC92UHtRIe24jjAi9p8">
     <mxGraphModel dx="792" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-D7BelvOKkm663ltMzwJ-1" value="Ingresar credenciales deseados. Usuario, Mail y Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-1" value="Solicitar Usuario y Contraseña" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-D7BelvOKkm663ltMzwJ-2" value="Credenciales cumplen con disponibilidad y reglas de Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-2" value="Credenciales Validos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-D7BelvOKkm663ltMzwJ-3" value="Se agrega al Usuario a la Base de datos.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-3" value="Se Notifica que el logueo ha tenido exito" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-D7BelvOKkm663ltMzwJ-4" value="Credenciales No cumplen con disponibilidad y reglas de Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-4" value="Credenciales No Validos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-D7BelvOKkm663ltMzwJ-5" value="Se notifica, y se solicita direntes Credenciales segun corresponda.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-5" value="Notificar al Usuario&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-D7BelvOKkm663ltMzwJ-6" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
@@ -67,10 +67,19 @@
             <mxPoint x="430" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-D7BelvOKkm663ltMzwJ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-3" target="-D7BelvOKkm663ltMzwJ-8">
+        <mxCell id="-D7BelvOKkm663ltMzwJ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-16" target="-D7BelvOKkm663ltMzwJ-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="360" as="sourcePoint" />
             <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-16" value="Se dirige a la pagina principal para realizar busquedas.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-D7BelvOKkm663ltMzwJ-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-D7BelvOKkm663ltMzwJ-3" target="-D7BelvOKkm663ltMzwJ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="520" as="sourcePoint" />
+            <mxPoint x="313.0400339198984" y="559.4000211999364" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
